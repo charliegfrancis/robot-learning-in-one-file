@@ -24,8 +24,8 @@ We run rollouts (robot attempts at the task) to collect experiences (sets of sta
 
 I chose to demonstrate the Reinforce algorithm on Cartpole, a classic RL task which is simple enough for it to solve.
 
-![reinforce cartpole reward curve](assets\reinforce-reward-plot.png)
-![reinforce cartpole gif](assets\reinforce-cartpole-behaviour.gif)
+![reinforce cartpole reward curve](assets/reinforce-reward-plot.png)
+![reinforce cartpole gif](assets/reinforce-cartpole-behaviour.gif)
 
 ### A2C
 
@@ -35,8 +35,8 @@ The critic outputs a value estimation for each state, which is then used to calc
 
 I chose to demonstrate the Advantage Actor Critic algorithm on the Ant task. This is significantly more complex than Cartpole, so it stretches the capability of A2C. You can see from the GIF that the policy does not reach fullly desirable behaviour. It learns to move just one leg to push itself along.
 
-![reinforce cartpole reward curve](assets\a2c-reward-plot.png)
-![reinforce cartpole gif](assets\a2c-ant-behaviour.gif)
+![reinforce cartpole reward curve](assets/a2c-reward-plot.png)
+![reinforce cartpole gif](assets/a2c-ant-behaviour.gif)
 
 
 ## Usage
