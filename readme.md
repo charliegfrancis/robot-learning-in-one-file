@@ -35,8 +35,8 @@ The critic outputs a value estimation for each state, which is then used to calc
 
 I chose to demonstrate the Advantage Actor Critic algorithm on the Ant task. This is significantly more complex than Cartpole, so it stretches the capability of A2C. You can see from the GIF that the policy does not reach fullly desirable behaviour. It learns to move just one leg to push itself along.
 
-![reinforce cartpole reward curve](assets/a2c-reward-plot.png)
-![reinforce cartpole gif](assets/a2c-ant-behaviour.gif)
+![a2c ant reward curve](assets/a2c-reward-plot.png)
+![a2c ant gif](assets/a2c-ant-behaviour.gif)
 
 ### PPO
 
@@ -46,8 +46,8 @@ We do this using the clipped objective function - https://huggingface.co/learn/d
 
 The training curve is much more stable and the reward climbs steadily to 9500+. The behaviour is much more desirable than A2C - the ant has learned to walk.
 
-![reinforce cartpole reward curve](assets/ppo-reward-plot.png)
-![reinforce cartpole gif](assets/ppo-ant-behaviour.gif)
+![ppo ant reward curve](assets/ppo-reward-plot.png)
+![ppo ant gif](assets/ppo-ant-behaviour.gif)
 
 
 ## Usage
