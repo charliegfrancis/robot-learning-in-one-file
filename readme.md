@@ -2,10 +2,9 @@
 
 Straightforward implementations of popular robotics control training algorithms. Each algorithm is written in pytorch, trained using isaacsim, and written in a single file so you can see exactly what's going on.
 
-So far it covers two popular reinforcement learning approaches: **Reinforce** (reinforce), and **Advantage Actor-Critic** (A2C).
+So far it covers three popular reinforcement learning approaches: **Reinforce** (reinforce), **Advantage Actor-Critic** (A2C) and **Proximal Policy Optimisation** (PPO).
 
-If you are trying to learn RL I reccomend starting with Reinforce. Once you understand that, the jump to A2C is quite straightforward.
-
+If you are trying to learn RL I reccomend starting with Reinforce, then going through A2C and finally PPO. Each of the approaches aims to fix a problem with the previous.
 
 ## Requirements
 `python3`
