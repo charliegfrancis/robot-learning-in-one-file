@@ -38,6 +38,17 @@ I chose to demonstrate the Advantage Actor Critic algorithm on the Ant task. Thi
 ![reinforce cartpole reward curve](assets/a2c-reward-plot.png)
 ![reinforce cartpole gif](assets/a2c-ant-behaviour.gif)
 
+### PPO
+
+Most A2C training runs end with the mean reward peaking, then falling off a cliff. This instability is addressed in Proximal Policy Optimisation by limiting how much the model can be updated in each rollout. Specifically, we limit how much the probability of selecting the chosen action can change over the batch.
+
+We do this using the clipped objective function - https://huggingface.co/learn/deep-rl-course/unit8/visualize.
+
+The training curve is much more stable and the reward climbs steadily to 9500+. The behaviour is much more desirable than A2C - the ant has learned to walk.
+
+![reinforce cartpole reward curve](assets/ppo-reward-plot.png)
+![reinforce cartpole gif](assets/ppo-ant-behaviour.gif)
+
 
 ## Usage
 
